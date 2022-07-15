@@ -16,5 +16,8 @@ class Student:
 #main method        
 if __name__ == '__main__':
     #here 's' is a reference variable 
-    s = Student()
-    s.display()
+    s1 = Student('Danish', 25, 76)
+    s1.display()
+    
+    s2 = Student('Ayan', 25, 78)
+    s2.display()
