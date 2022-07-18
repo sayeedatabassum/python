@@ -1,5 +1,8 @@
-#Creation of multiple objects with same name in python
+#Creation of multiple objects with same reference in python
 class Student:
+    
+    #self is 1st parameter in both constructor and instance method
+    #it is a region where address of self variable is stored
     
     #constructor
     def __init__(self, name, age, average):
@@ -7,7 +10,7 @@ class Student:
         self.age = age
         self.average = average
         
-    #this function prints in output    
+    #instance method and this function prints in output    
     def display(self):
         print(f'Name: {self.name}')
         print(f'Age : {self.age}')
@@ -19,5 +22,5 @@ if __name__ == '__main__':
     s1 = Student('Danish', 25, 76)
     s1.display()
     
-    s2 = Student('Ayan', 25, 78)
-    s2.display()
+    s1 = Student('Ayan', 25, 78)
+    s1.display()
