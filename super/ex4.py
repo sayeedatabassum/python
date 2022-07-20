@@ -24,3 +24,4 @@ class Child(Parent):
         
 if __name__ == '__main__':
     c = Child()
+   # using child classs constructor we can access parent class c,im,sm,cm
