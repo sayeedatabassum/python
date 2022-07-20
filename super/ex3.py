@@ -20,3 +20,4 @@ class Child(Parent):
 if __name__ == '__main__':
     c = Child()
         
+ # using super() we cannot access the iv of parent class (attribute error), however we can access the sv
