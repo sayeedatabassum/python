@@ -33,3 +33,5 @@ if __name__ == '__main__':
 # parent class im
 # parent class sm
 # parent class cm
+
+# we can access c,im,sm,cm of parent class using im of child class
