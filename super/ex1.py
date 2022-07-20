@@ -18,3 +18,5 @@ class Child(Parent):
         
 if __name__ == '__main__':
     c = Child()
+    
+ # class obj isn't created so cannot access iv of parent class 
