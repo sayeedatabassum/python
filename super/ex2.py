@@ -24,3 +24,4 @@ class Child(Parent):
 if __name__ == '__main__':
     c = Child()
         
+ # if iv and sv are in same name, then using self if we try to access then iv data would be fetched
