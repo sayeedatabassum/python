@@ -11,3 +11,6 @@ class Child(Parent):
                 
 if __name__ == '__main__':
     c = Child()
+    
+# o/p:
+# Inside Parent class

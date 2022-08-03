@@ -29,4 +29,12 @@ if __name__ == '__main__':
     c.i_m()
     c.s_m()
     c.c_m()
-    
+   
+#    o/p: 
+# Inside parent class Constructor
+#  Accessing the sv of parent class: 10
+#  Accessing the sv of parent class: 10
+#  Accessing the iv of parent class: 20
+# Inside parent class im
+# inside parent class sm
+# inside parent class cm
