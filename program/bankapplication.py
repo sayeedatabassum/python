@@ -15,8 +15,6 @@ class Customer:
     def withdraw(self,amount):
         if amount > self.balance:
             print('insufficient balance please update your balance!!!')
-            sys.exit(0)
-
         else:
             self.balance = self.balance - amount
             print(f'balance after withdraw:{self.balance}')
